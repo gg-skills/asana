@@ -6,8 +6,8 @@
  * This file owns argv parsing, checklist row materialization, weighted scoring, required-item gating for `canFinalize`, and stdout formatting (including `--json`).
  * Flow: argv -> derive tasks-complete count -> map each checklist row to checked -> aggregate scores -> print narrative (and JSON when requested).
  *
- * @testing CLI: npx tsx skills/asana/scripts/check-asana-completeness.ts --tasks 8
- * @testing CLI: npx tsx skills/asana/scripts/check-asana-completeness.ts --tasks 1 --json
+ * @testing CLI: npx tsx .agents/skills/asana/scripts/check-asana-completeness.ts --tasks 8
+ * @testing CLI: npx tsx .agents/skills/asana/scripts/check-asana-completeness.ts --tasks 1 --json
  *
  * @see skills/asana/SKILL.md - Canonical asana skill that frames MCP-backed Asana work this checklist is meant to accompany before finalize decisions.
  * @see cloom-platform-overview/materials/2026-05-14-mmx-reports-non-developers/asana-operations-runbook.md - Operations runbook referenced by checklist item eight as the human-maintained procedure surface this script nudges agents to keep current.

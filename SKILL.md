@@ -279,6 +279,7 @@ For section CRUD and a few other surfaces the MCP server does not expose, use th
 npm install
 
 # Create a section in the default project
+# Runner alternatives: bunx tsx / pnpm dlx tsx / deno run -A npm:tsx / node --import tsx / yarn dlx tsx
 npx tsx --env-file=../.env create-section.ts "<section name>"
 
 # List sections (table or JSON)
@@ -395,3 +396,5 @@ The `references/` directory contains **4 hand-authored files** (no subfolders):
 - `tools-cheatsheet.md` — exhaustive MCP tool surface with parameter shapes and gotchas
 - `operations-catalog.md` — patterns of work: discover, mass-edit, restructure, snapshot, audit, dedup
 - `parallel-agent-patterns.md` — sub-agent fan-out strategies, shared specs, two-wave authoring/pushing
+
+[^rt]: `npx tsx` accepts any standard runner — `bunx tsx`, `pnpm dlx tsx`, `deno run -A npm:tsx`, `node --import tsx`, or `yarn dlx tsx`. The first five auto-fetch `tsx` on demand; only `node --import tsx` requires `tsx` to be installed locally first (`npm i -D tsx`, or `npm i -g tsx` if you cannot reach the npm registry). Bun users can also skip `tsx` entirely and run TypeScript directly via `bun <script>`. Pick whichever your project ships. The canonical runtime decision table lives in the `skills-manager` skill under `Runtime Selection` (only available when working in the full `gg-skills` monorepo).

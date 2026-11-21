@@ -10,7 +10,7 @@
  * @testing CLI: npx tsx .agents/skills/asana/scripts/check-asana-completeness.ts --tasks 1 --json
  *
  * @see skills/asana/SKILL.md - Canonical asana skill that frames MCP-backed Asana work this checklist is meant to accompany before finalize decisions.
- * @see cloom-platform-overview/materials/2026-05-14-mmx-reports-non-developers/asana-operations-runbook.md - Operations runbook referenced by checklist item eight as the human-maintained procedure surface this script nudges agents to keep current.
+ * @see Your operations runbook for project-specific checks before finalizing Asana work.
  * @see docs/TYPESCRIPT_STANDARDS_DOCUMENTATION_FILE_OVERVIEWS.md - Repository file-overview contract this header follows so automated documentation gates stay aligned with platform policy.
  * @documentation reviewed=2026-05-22 standard=FILE_OVERVIEW_STANDARDS_TYPESCRIPT@3
  */

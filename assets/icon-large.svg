@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Project label scanner">
+  <defs>
+    <linearGradient id="asana-large-bg" x2="1" y2="1">
+      <stop stop-color="#A3ACF0"/>
+      <stop offset="1" stop-color="#EAB8F1"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="144" height="144" rx="34" fill="url(#asana-large-bg)"/>
+  <rect x="17" y="17" width="126" height="126" rx="25" fill="#161937"/>
+  <path d="M25 45a21 21 0 0 1 21-21h67a24 24 0 0 1 24 24v61l-15-20V44a10 10 0 0 0-10-10H47a12 12 0 0 0-12 12v56l-10 12Z" fill="#6F63BF"/>
+  <path d="m35 70 21 17h50l23-16v51l-18 15H44l-15-15Z" fill="#4E438D"/>
+  <path d="m29 122 29-29h49l22 29-19 15H44Z" fill="#7365B4"/>
+  <path d="m44 113 16-17m-7 33 24-28m-1 30 12-18m6 22 13-20m-67-2 65 1m-53 13 65-2" fill="none" stroke="#B7ACFC" stroke-width="2" opacity=".65"/>
+  <path d="m37 53 18 7v10l-18-7Zm0 20 17 7v9l-17-7Zm78-24 13-4v13l-13 4Zm0 21 13-4v10l-13 4Z" fill="#9C89DF"/>
+  <path d="m77 72 46 64M76 72l-30 50" stroke="#F473D3" stroke-width="7" stroke-opacity=".45" stroke-linecap="round"/>
+  <path d="m77 72 46 64M76 72l-30 50" stroke="#FFA8E6" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M52 44a29 29 0 0 1 58 0v20a19 19 0 0 1-11 17l-9 5v9H71v-9l-10-6a18 18 0 0 1-9-16Z" fill="#272A60"/>
+  <path d="M59 46a22 22 0 0 1 44 0v5c0 12-10 22-22 22S59 63 59 51Z" fill="#596BC8"/>
+  <circle cx="81" cy="51" r="12" fill="#1A2455"/>
+  <circle cx="83" cy="49" r="4" fill="#A3BAFF"/>
+  <path d="M72 87h17v8H72z" fill="#E569C8"/>
+</svg>
